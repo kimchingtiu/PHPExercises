@@ -7,7 +7,7 @@ echo "\nInput elements in the array : ";
 
 $arr = explode(' ', readline());
  
-print_r($arr);
+print_r($arr );
 
 echo "Input 5 elements in the array : ";
 
@@ -30,6 +30,7 @@ for ($i = 0; $i < $size; $i++) {
     } else {
         $oddArray[$k] = $arr[$i];
         $k++;
+     
     }
 }
 
@@ -42,7 +43,7 @@ for ($i = 0; $i <= $j; $i++) {
     
     
     
-    echo "$arr[$i] ";
+    echo "$evenArray[$i] ";
 }
 
 
@@ -53,7 +54,7 @@ echo "\nThe Odd elements are : \n";
 for ($i = 0; $i <= $k; $i++) {
     
     
-    echo "$arr[$i] ";
+    echo "$oddArray[$i] ";
 }
 
 
